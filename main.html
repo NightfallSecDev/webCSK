@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium Development Agency. We build scalable apps, robust backend systems, and stunning web experiences.">
+    <title>Crooksec Technology | Premium Development</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Crooksec<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#benefits">Benefits</a>
+                <a href="#why-choose-us">Why Choose Us</a>
+                <a href="#services">Services</a>
+                <a href="#process">Process</a>
+                <a href="#testimonials">Testimonials</a>
+            </nav>
+            <a href="#hero" class="btn btn-outline">Get a Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">🔥 Premium Development Services</div>
+                    <h1 class="hero-title">Transform Your Vision Into a <span class="highlight">Digital Reality</span>
+                    </h1>
+                    <p class="hero-subtitle">We build scalable apps, robust backend systems, and stunning web
+                        experiences designed to accelerate your business growth.</p>
+                    <ul class="hero-features">
+                        <li>✅ Full-Stack Enterprise Expertise</li>
+                        <li>✅ Rapid Delivery Timelines</li>
+                        <li>✅ Scalable & Secure Architecture</li>
+                    </ul>
+
+                    <div class="hero-trust-badges">
+                        <div class="trust-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">5.0/5 on Clutch</span>
+                        </div>
+
+                        <div class="trust-badge">
+                            <span>🔒 Strict NDA Policies</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-form-container">
+                    <div class="form-header">
+                        <h3>Get Your Custom Quote</h3>
+                        <p>Fill out the form below to discuss your project.</p>
+                    </div>
+                    <form id="lead-form" class="lead-form">
+                        <div class="form-group">
+                            <label for="full-name">Full Name *</label>
+                            <input type="text" id="full-name" name="name" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group highlight-input">
+                            <label for="phone">Phone Number (Required) *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 000-0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@company.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name (Optional)</label>
+                            <input type="text" id="company" name="company" placeholder="Acme Corp">
+                        </div>
+
+                        <div class="form-group split">
+                            <div class="form-subgroup">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select a range</option>
+                                    <option value="5k-10k">$5k - $10k</option>
+                                    <option value="10k-25k">$10k - $25k</option>
+                                    <option value="25k-50k">$25k - $50k</option>
+                                    <option value="50k+">$50k+</option>
+                                </select>
+                            </div>
+                            <div class="form-subgroup">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-3-months">1-3 Months</option>
+                                    <option value="3-6-months">3-6 Months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="needs">What do you need?</label>
+                            <select id="needs" name="needs">
+                                <option value="">Select a service</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="crm-hrm">CRM / HRM</option>
+                                <option value="ai">AI & ML</option>
+                                <option value="backend">API & Backend</option>
+                                <option value="cloud">Cloud & DevOps</option>
+                                <option value="other">Other / Multiple</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="business">Business Type</label>
+                            <select id="business" name="business">
+                                <option value="">Select your business type</option>
+                                <option value="startup">Startup</option>
+                                <option value="enterprise">Enterprise</option>
+                                <option value="agency">Agency / Partner</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="details">Project Details / Anything else?</label>
+                            <textarea id="details" name="details" rows="3"
+                                placeholder="Tell us more about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Request Quote Now <span
+                                class="arrow">→</span></button>
+                        <p class="form-note">🔒 Bank-Level 256-bit Encryption • Strict NDA Enforced • 100% Confidential
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFITS SECTION -->
+        <section id="benefits" class="benefits section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Partner With Us?</h2>
+                    <p>We don't just write code. We build scalable digital assets designed to increase your revenue and
+                        operational efficiency.</p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Accelerated Delivery</h3>
+                        <p>Launch weeks faster with our agile development sprints and pre-built scalable architectures.
+                        </p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🛡️</div>
+                        <h3>Enterprise-Grade Security</h3>
+                        <p>Bank-level encryption and secure coding practices ensure your data and users are always
+                            protected.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📈</div>
+                        <h3>Built for Scale</h3>
+                        <p>From day one, we architecture your product to handle millions of users without breaking a
+                            sweat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST SECTION -->
+        <section id="trust" class="trust">
+            <div class="trust-container">
+                <p class="trust-title">CERTIFIED, SECURE, AND TRUSTED BY THE BEST</p>
+                <div class="marquee-wrapper">
+                    <div class="marquee">
+                        <span>AWS Advanced Partner</span>
+                        <span>ISO 27001 Certified</span>
+                        <span>SOC 2 Type II Compliant</span>
+                        <span>GDPR Ready</span>
+                        <span>Microsoft Gold Partner</span>
+                        <span>Google Cloud Certified</span>
+                        <span>AWS Advanced Partner</span>
+                        <span>ISO 27001 Certified</span>
+                        <span>SOC 2 Type II Compliant</span>
+                        <span>GDPR Ready</span>
+                        <span>Microsoft Gold Partner</span>
+                        <span>Google Cloud Certified</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section id="why-choose-us" class="choose-us section-padding">
+            <div class="container">
+                <div class="choose-container">
+                    <div class="choose-content">
+                        <h2>Why Choose Us?</h2>
+                        <p>We combine deep technical expertise with a business-first mindset. Our goal is to make your
+                            technology a competitive advantage rather than a cost center.</p>
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <h3 class="stat-number highlight">150+</h3>
+                                <p>Projects Delivered</p>
+                            </div>
+                            <div class="stat-box">
+                                <h3 class="stat-number highlight">10+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat-box">
+                                <h3 class="stat-number highlight">99%</h3>
+                                <p>Client Retention</p>
+                            </div>
+                            <div class="stat-box">
+                                <h3 class="stat-number highlight">24/7</h3>
+                                <p>Premium Support</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose-image">
+                        <div class="glow-box">
+                            <ul>
+                                <li>✓ Dedicated Project Managers</li>
+                                <li>✓ Transparent Pricing</li>
+                                <li>✓ Agile Methodology</li>
+                                <li>✓ Post-Launch Maintenance</li>
+                                <li>✓ Top 1% Dev Talent</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Core Services</h2>
+                    <p>Comprehensive solutions to digitalize, scale, and optimize your business operations.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Web Development</h3>
+                        <p>High-performance websites and web applications built with modern frameworks.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile experiences for iOS and Android.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🤝</div>
+                        <h3>CRM Development</h3>
+                        <p>Custom Customer Relationship Management systems to boost your sales.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">👥</div>
+                        <h3>HRM Development</h3>
+                        <p>Human Resource Management tools to streamline your workforce.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI & ML</h3>
+                        <p>Integrate artificial intelligence to automate processes and gain insights.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <h3>API & Backend Development</h3>
+                        <p>Robust, secure, and scalable server-side architectures.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud & DevOps</h3>
+                        <p>Seamless deployment, continuous integration, and cloud infrastructure management.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Intuitive, user-centric, and aesthetically stunning interface designs.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Maintenance & Support</h3>
+                        <p>24/7 monitoring, updates, and optimization to keep your systems flawless.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS SECTION -->
+        <section id="process" class="process section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Proven Process</h2>
+                    <p>A transparent and agile approach to bringing your vision to life.</p>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">01</div>
+                        <h3>Discovery</h3>
+                        <p>Deep-dive into your requirements, market, and goals.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">02</div>
+                        <h3>Strategy</h3>
+                        <p>Architecting the solution and defining the technical roadmap.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">03</div>
+                        <h3>Development</h3>
+                        <p>Agile engineering with regular sprints and feedback loops.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">04</div>
+                        <h3>Launch</h3>
+                        <p>Rigorous QA, deployment, and post-launch monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="reviews section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Client Testimonials</h2>
+                    <p>Real results from businesses we've helped scale.</p>
+                </div>
+                <div class="reviews-scroll-container">
+                    <div class="reviews-track">
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Crooksec Technology transformed our outdated systems into a modern,
+                                scalable platform. Our conversion rates doubled in 3 months."</p>
+                            <div class="client-info">
+                                <span class="client-name">Sarah Jenkins</span>
+                                <span class="client-role">CEO, TechFlow</span>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"The speed and quality of their development are unmatched. They
+                                delivered our MVP weeks ahead of schedule."</p>
+                            <div class="client-info">
+                                <span class="client-name">Michael Chang</span>
+                                <span class="client-role">Founder, Nexus AI</span>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"Highly professional and security-conscious. We trust them completely
+                                with our enterprise backend architecture."</p>
+                            <div class="client-info">
+                                <span class="client-name">David Thorne</span>
+                                <span class="client-role">CTO, Global Finance</span>
+                            </div>
+                        </div>
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">"An absolute pleasure to work with. The daily communication and agile
+                                process made everything seamless."</p>
+                            <div class="client-info">
+                                <span class="client-name">Elena Rostova</span>
+                                <span class="client-role">Product Lead, StartupX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section id="final-cta" class="final-cta section-padding">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Ready to Scale Your Business?</h2>
+                    <p>Let's build a product that drives revenue and sets you apart from the competition. Get a custom
+                        quote today.</p>
+                    <a href="#hero" class="btn btn-primary">Start Your Project <span class="arrow">↑</span></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="logo">Crooksec<span>.</span></div>
+                    <p>Building scalable digital realities for startups and enterprises worldwide.</p>
+                    <div class="social-links">
+                        <a href="#">TW</a>
+                        <a href="#">LI</a>
+                        <a href="#">GH</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">AI & ML</a></li>
+                        <li><a href="#services">Cloud & DevOps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>hello@crooksec.com</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>123 Tech Lane, Silicon Valley</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crooksec Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
